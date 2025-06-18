@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products</title>
+  <style>
+    body {
+      background-color: antiquewhite;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: darkgreen;
+    }
+
+    .products-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .product-card {
+      background-color: rgb(212, 181, 158);
+      width: 400px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-card h2 {
+      color: blue;
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>OUR PRODUCTS</h1>
+
+  <div class="products-container">
+    <div class="product-card">
+      <h2>Potatoes</h2>
+      <img src="potatoes.jpg" alt="Potatoes">
+      <p>Potatoes: A rich source of carbohydrates, they provide energy and essential nutrients like vitamin C and potassium.</p>
+    </div>
+
+    <div class="product-card">
+      <h2>Vegetables</h2>
+      <img src="vegetables.jpg" alt="Vegetables">
+      <p>Vegetables: Packed with vitamins, minerals, fiber, and antioxidants—essential for good health and disease prevention.</p>
+    </div>
+
+    <div class="product-card">
+        <h2>tomatoes</h2>
+        <img src="tomatoes.jpg.webp" alt="tomatoes">
+        <p>Tomatoes: Rich in vitamin C, potassium, and lycopene—an antioxidant linked to heart health and cancer prevention.</p>
+    </div>
+
+    <div class="product-card">
+        <h2>spices</h2>
+        <img src="spices.jpeg" alt="spices">
+        <p>Spices: Enhance flavor, aid digestion, and many (like turmeric and ginger) have medicinal and antioxidant properties</p>
+    </div>
+  </div>
+</body>
+</html>
